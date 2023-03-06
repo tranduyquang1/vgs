@@ -1,0 +1,1 @@
+@include("admin.pages.$controllerName.email.account", ['item' => $item])

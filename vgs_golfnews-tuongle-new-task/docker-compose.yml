@@ -1,0 +1,16 @@
+version: '3.4'
+services:
+  app:
+    container_name: "c-${APP_NAME}"
+    image: lmduy2612/php7.2fpm:v1.0
+    restart: unless-stopped
+    volumes:
+      - ./:/var/www/html
+  webserver:
+    image: nginx:1.17-alpine
+    restart: unless-stopped
+    ports:
+      - "${APP_PORT}:80"
+    volumes:
+      - ./:/var/www/html
+      - ./docker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf

@@ -1,0 +1,8 @@
+{
+    "/backend/js/myScript.js": "/backend/js/myScript.js",
+    "/backend/css/myStyle.css": "/backend/css/myStyle.css",
+    "/frontend/assets/css/myStyle.css": "/frontend/assets/css/myStyle.css",
+    "/frontend/assets/js/myScript.js": "/frontend/assets/js/myScript.js",
+    "/frontend/assets/css/combine-all-assets.min.css": "/frontend/assets/css/combine-all-assets.min.css",
+    "/frontend/assets/js/combine-all-assets.min.js": "/frontend/assets/js/combine-all-assets.min.js"
+}
